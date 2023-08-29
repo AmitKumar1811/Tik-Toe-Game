@@ -1,0 +1,81 @@
+/* index.css */
+.Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction:column-reverse;
+
+  }
+  
+  .Box1 {
+    width: 250px;
+    height: 250px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bigSquare {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .smallSquare {
+    width:70px;
+    height:70px;
+    background-color: #cccccc;
+  }
+
+  p
+  {
+  margin:30% auto 0 auto;
+  font-weight: 900;
+  font-size: x-large;
+  }
+  .xturn
+  {
+  color: #11da11;
+  }
+  .oturn
+  {
+  color: #ee1010;
+  }
+
+
+  .myButton {
+	background-color:#20b333;
+	border-radius:28px;
+	border:1px solid #82dd38;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b7c286;
+}
+.myButton:hover {
+	background-color:#36bb32;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton1 {
+	background-color:#20b333;
+	border-radius:15px;
+	border:3px solid #ee1010;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b7c286;
+}
+
